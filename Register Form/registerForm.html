@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PartnerBen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="registerForm.css" />
+  </head>
+
+  <body>
+    <nav role="navigation" class="header">
+      <img
+        class="logo-cup"
+        src="../coffee-cup-icon/coffee-cup-icon.svg"
+        height="35px"
+      />
+      <a href="../Index.html">
+        <div class="logo">
+          <h1>PartnerBEN</h1>
+        </div></a
+      >
+      <span class="header-tagline">Track your hours. Keep your benefits.</span>
+      <!-- <div class="header-login-register">
+                  <li>Log in</li>
+                  <li>Register</li>
+                </div>-->
+    </nav>
+
+    <!--<nav role="navigation">Nav</nav>-->
+    <main role="main">
+      <header>
+        <h2>Register</h2>
+        <div class="buttons-login-register">
+          <li><a href="../Login Form/loginForm.html">Log in</a></li>
+          <li><a href="#">Register</a></li>
+        </div>
+      </header>
+      <section>
+        <form id="enterPaycheck">
+          <div class="form-section">
+            <div class="firstName-div">
+              <label for="firstName">First Name</label>
+              <input type="text" name="firstName" required />
+            </div>
+
+            <div class="lastName-div">
+              <label for="lastName">Last Name</label>
+              <input type="text" name="lastName" required />
+            </div>
+
+            <div class="email-div">
+              <label for="email">Email</label>
+              <input type="email" name="email" required />
+            </div>
+
+            <div class="password-div">
+              <label for="password">Password</label>
+              <input type="password" name="password" required />
+            </div>
+
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+        <p>Already have an account? <a class="reset-link">Sign-in</a></p>
+      </section>
+    </main>
+    <footer role="content-info">Footer</footer>
+  </body>
+</html>

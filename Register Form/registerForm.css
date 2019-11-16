@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+  min-width: 320px;
+}
+
+nav,
+footer {
+  padding: 1% 0;
+  background-color: #aaa;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.header {
+  padding: 35px 15px;
+  height: 40px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  /*
+    padding: 45px 15px;
+    height: 40px;
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;*/
+}
+
+.header-tagline {
+  font-size: 0.8em;
+  opacity: 0.75;
+  margin-left: 10px;
+}
+.header h1 {
+  margin: 0;
+  color: black;
+}
+.header-login-register {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-login-buttons {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  border: 0.5px solid #444;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+li:hover {
+  cursor: pointer;
+  background: #444;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+/*
+  li:last-child {
+    background: #444;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-left: 10px;
+  }
+  */
+
+/*
+    height: 40px;
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+  */
+header {
+  margin-top: 110px;
+  margin-bottom: 20px;
+}
+
+section {
+  min-height: 200px;
+  padding: 30px 15px;
+  background-color: #bbb;
+}
+
+section:nth-child(even) {
+  background-color: #ddd;
+}
+
+p {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+p + p {
+  margin-top: 15px;
+}
+
+form {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+button {
+  border: 1px solid #aaa;
+  background-color: #eee;
+  font-size: 1.1em;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+}
+
+input,
+select {
+  border: 1px solid #ddd;
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  border-radius: 4px;
+}
+
+input[type="number"] {
+  padding: 8px;
+}
+
+label {
+  display: block;
+}
+
+.form-section {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #444444;
+}
+
+a:hover {
+  color: white;
+}
+
+.reset-link {
+  text-decoration: none;
+  color: gray;
+}
+
+.reset-link:hover {
+  color: black;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

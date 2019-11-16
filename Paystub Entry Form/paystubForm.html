@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PartnerBen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="paystubForm.css" />
+  </head>
+
+  <body>
+    <nav role="navigation" class="header">
+      <img
+        class="logo-cup"
+        src="../coffee-cup-icon/coffee-cup-icon.svg"
+        height="35px"
+      />
+      <a href="../Index.html">
+        <div class="logo">
+          <h1>PartnerBEN</h1>
+        </div></a
+      >
+      <span class="header-tagline">Track your hours. Keep your benefits.</span>
+      <!-- <div class="header-login-register">
+                  <li>Log in</li>
+                  <li>Register</li>
+                </div>-->
+    </nav>
+    <main role="main">
+      <header>
+        <h2>PayStub</h2>
+        <p>Enter a new paystub or edit an existing one.</p>
+      </header>
+      <section>
+        <form id="enterPaycheck">
+          <div class="form-section">
+            <div class="paycheck-date-div">
+              <label for="paycheck-date">Paycheck Date</label>
+              <select required>
+                <option>--Select Date --</option>
+                <option>Paycheck Date 1</option>
+                <option>Paycheck Date 2</option>
+                <option>Paycheck Date 3</option>
+                <option>Paycheck Date 4</option>
+                <option>Paycheck Date 5</option>
+                <option>Paycheck Date 6</option>
+                <option>Paycheck Date 7</option>
+                <option>Paycheck Date 8</option>
+                <option>Paycheck Date 9</option>
+                <option>Paycheck Date 10</option>
+                <option>Paycheck Date 11</option>
+                <option>Paycheck Date 12</option>
+                <option>Paycheck Date 13</option>
+              </select>
+            </div>
+
+            <div class="ben-hrs-div">
+              <label for="ben-hours">BEN hours</label>
+              <input type="number" name="ben-hours" placeholder="127" />
+            </div>
+
+            <div class="vacation-hrs-div">
+              <label for="vacation-hours">Vacation hours</label>
+              <input type="number" name="vacation-hours" placeholder="23" />
+            </div>
+
+            <div class="sick-hrs-div">
+              <label for="sick-hours">Sick hours</label>
+              <input type="number" name="sick-hours" placeholder="8" />
+            </div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer role="content-info">Footer</footer>
+  </body>
+</html>
